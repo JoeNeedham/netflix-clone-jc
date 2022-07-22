@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { FirebaseContext } from '../context/firebase';
 import { FooterContainer } from '../containers/footer';
 import { HeaderContainer } from '../containers/header';
-import { Form, Header } from '../components';
+import { Form } from '../components';
 import * as ROUTES from '../constants/routes';
 
 export default function Signup() {
